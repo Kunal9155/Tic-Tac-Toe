@@ -1,0 +1,84 @@
+body {
+  height: 100vh;
+  /* background-color: #343F56; */
+  /* background: rgba(255,255,255,0.4); */
+  /* background-image: linear-gradient(to top, #513f44, #7c4050, #a73c57, #d33059, #fe1355); */
+  background-image: linear-gradient(to bottom, #000000, #2b2022, #513b3e, #7c575c, #a97579, #c37a7d, #dd8080, #f78581, #fd6f67, #ff574c, #ff3a2d, #ff0000);
+}
+
+.grid {
+
+  padding-left : 13px;
+  padding-right : 13px;
+  padding-top: 25px;
+  padding-bottom : 25px;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  border-radius: 27px;
+  background-color: #020000;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(0.00, 100%, 50%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(0.00, 100%, 50%) 0, transparent 55%);
+
+
+
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+.icon {
+  font-size: 30px;
+  color: black;
+}
+
+.turn{
+  /* color: #FB9300 !important; */
+  font-size: 55px;
+ color: cornsilk;
+ font-weight: bolder;
+}
+.card{
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  background-color: rgba(255, 255, 255, 0.34);
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  cursor: pointer;
+}
+.card:hover{
+  background-image: radial-gradient(circle, #f39797, #f68988, #f97a79, #fa6b6a, #fb5a5a);
+}
+
+.card:active{
+  background-image: radial-gradient(circle, #f3fbac, #f5fc90, #f7fd71, #fbfd4c, #fffd00);
+}
+
+.wins{
+  background: #FF0000;
+background: -webkit-linear-gradient(to right, #FF0000 18%, #FFFF00 65%, #05C1FF 100%, #FFFF00 21%, #FF0000 62%);
+background: -moz-linear-gradient(to right, #FF0000 18%, #FFFF00 65%, #05C1FF 100%, #FFFF00 21%, #FF0000 62%);
+background: linear-gradient(to right, #FF0000 18%, #FFFF00 65%, #05C1FF 100%, #FFFF00 21%, #FF0000 62%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: bolder;
+font-size: 55px;
+
+}
+
+.btn{
+  background-image: radial-gradient(circle, #ec0000, #b40020, #790524, #3e0f1b, #000000);
+  color: whitesmoke !important;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 45px;
+}
+
